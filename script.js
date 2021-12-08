@@ -2,14 +2,14 @@
 
   //card options
   const cardArray = [
-    {name: "pikachu", img:"images\\Pikachu.jpg"},
-    {name: "pikachu", img:"images\\Pikachu.jpg"},
-    {name: "bulbasaur", img:"images\\Venusaur.jpg"},
-    {name: "bulbasaur", img:"images\\Venusaur.jpg"},
-    {name: "charizard", img:"images\\Charizard-Legendary-Collection3.jpg"},
-    {name: "charizard", img:"images\\Charizard-Legendary-Collection3.jpg"},
-    {name: "squirtle", img:"images\\Blastoise.jpg"},
-    {name: "squirtle", img:"images\\Blastoise.jpg"}
+    {name: "pikachu", img:"images/Pikachu.jpg"},
+    {name: "pikachu", img:"images/Pikachu.jpg"},
+    {name: "bulbasaur", img:"images/Venusaur.jpg"},
+    {name: "bulbasaur", img:"images/Venusaur.jpg"},
+    {name: "charizard", img:"images/Charizard-Legendary-Collection3.jpg"},
+    {name: "charizard", img:"images/Charizard-Legendary-Collection3.jpg"},
+    {name: "squirtle", img:"images/Blastoise.jpg"},
+    {name: "squirtle", img:"images/Blastoise.jpg"}
   ];
   
   const grid = document.querySelector('.grid')
