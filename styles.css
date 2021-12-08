@@ -88,4 +88,7 @@ button {
     border-radius: 50%;
     font-size: xx-large;
   }
+  button:hover {
+    transform: scale(1.1);
+  }
 }
