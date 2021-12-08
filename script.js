@@ -118,8 +118,8 @@ function checkForMatch() {
   
     else if (cardsChosen[0] === cardsChosen[1]) {
     
-    cards[optionOneId].setAttribute('src', 'images/blue-color.svg')
-    cards[optionTwoId].setAttribute('src', 'images/blue-color.svg')
+    cards[optionOneId].setAttribute('src', 'images/image.png')
+    cards[optionTwoId].setAttribute('src', 'images/image.png')
     cards[optionOneId].removeEventListener('click', flipCard)
     cards[optionTwoId].removeEventListener('click', flipCard)
     cardsWon.push(cardsChosen)
