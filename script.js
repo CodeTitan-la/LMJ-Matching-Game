@@ -99,7 +99,7 @@ let cardsWon = []
 function createBoard() {
   for (let i = 0; i < cardArray.length; i++) {
     const card = document.createElement('img')
-    card.setAttribute('src', 'images\\pokemon cardback 2.0.jpg')
+    card.setAttribute('src', 'images/pokemon cardback 2.0.jpg')
     card.setAttribute('data-id', i)
     card.addEventListener('click', flipCard)
     grid.appendChild(card)
@@ -113,20 +113,20 @@ function checkForMatch() {
   const optionTwoId = cardsChosenId[1]
   if (cardsChosenId[0] === cardsChosenId[1]){
     alert("you have chosen the same card!")
-    cards[optionOneId].setAttribute('src', 'images\\pokemon cardback 2.0.jpg')
+    cards[optionOneId].setAttribute('src', 'images/pokemon cardback 2.0.jpg')
   }
   
     else if (cardsChosen[0] === cardsChosen[1]) {
     
-    cards[optionOneId].setAttribute('src', 'images\\blue-color.svg')
-    cards[optionTwoId].setAttribute('src', 'images\\blue-color.svg')
+    cards[optionOneId].setAttribute('src', 'images/blue-color.svg')
+    cards[optionTwoId].setAttribute('src', 'images/blue-color.svg')
     cards[optionOneId].removeEventListener('click', flipCard)
     cards[optionTwoId].removeEventListener('click', flipCard)
     cardsWon.push(cardsChosen)
     
   } else {
-    cards[optionOneId].setAttribute('src', 'images\\pokemon cardback 2.0.jpg')
-    cards[optionTwoId].setAttribute('src', 'images\\pokemon cardback 2.0.jpg')
+    cards[optionOneId].setAttribute('src', 'images/pokemon cardback 2.0.jpg')
+    cards[optionTwoId].setAttribute('src', 'images/pokemon cardback 2.0.jpg')
   }
   cardsChosen = []
   cardsChosenId = []
